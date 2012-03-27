@@ -1,0 +1,21 @@
+JBOSS AS Tools integration
+
+VisualVM
+--------
+
+Scripts to initialise visualvm with JBoss remoting libraries on classpath and run visualvm with JBoss remoting enabled
+
+
+1) Install visualvm scripts: Copy visualvm.bat and visualvm.sh to $JBOSS_HOME/bin/
+
+2) Execute visualvm script: 
+
+	Linux; 
+		2.1) execute $JBOSS_HOME/bin/visualvm.sh
+
+	Windows;
+		2.1) Set VISUALVM_HOME environment variable to base directory of visualvm 
+		2.2) execute $JBOSS_HOME/bin/visualvm.bat
+
+
+
