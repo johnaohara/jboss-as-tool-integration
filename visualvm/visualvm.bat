@@ -1,9 +1,9 @@
 @echo off
 rem -------------------------------------------------------------------------
-rem jconsole script for Windows
+rem jvisualvm script for Windows
 rem -------------------------------------------------------------------------
 rem
-rem A script for running jconsole with the remoting-jmx libraries on the classpath. 
+rem A script for running jvisualvm with the remoting-jmx libraries on the classpath. 
 
 rem $Id$
 
