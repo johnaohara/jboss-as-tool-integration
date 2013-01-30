@@ -78,7 +78,7 @@ call :SearchForJars %JBOSS_MODULEPATH%\org\jboss\sasl\main
 call :SearchForJars %JBOSS_MODULEPATH%\org\jboss\marshalling\main
 call :SearchForJars %JBOSS_MODULEPATH%\org\jboss\marshalling\river\main
   
-"%VISUALVM_HOME%\bin\visualvm.exe" "-cp:a" "%CLASSPATH%" 
+"%VISUALVM_HOME%\bin\jvisualvm.exe" "-cp:a" "%CLASSPATH%" 
 
 :END
 goto :EOF
