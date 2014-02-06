@@ -1,9 +1,9 @@
 @echo off
 rem -------------------------------------------------------------------------
-rem jconsole script for Windows
+rem jvisualvm script for Windows
 rem -------------------------------------------------------------------------
 rem
-rem A script for running jconsole with the remoting-jmx libraries on the classpath. 
+rem A script for running jvisualvm with the remoting-jmx libraries on the classpath. 
 
 rem $Id$
 
@@ -78,7 +78,7 @@ call :SearchForJars %JBOSS_MODULEPATH%\org\jboss\sasl\main
 call :SearchForJars %JBOSS_MODULEPATH%\org\jboss\marshalling\main
 call :SearchForJars %JBOSS_MODULEPATH%\org\jboss\marshalling\river\main
   
-"%VISUALVM_HOME%\bin\visualvm.exe" "-cp:a" "%CLASSPATH%" 
+"%VISUALVM_HOME%\bin\jvisualvm.exe" "-cp:a" "%CLASSPATH%" 
 
 :END
 goto :EOF

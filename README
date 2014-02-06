@@ -14,7 +14,7 @@ Scripts to initialise visualvm with JBoss remoting libraries on classpath and ru
 		2.1) execute $JBOSS_HOME/bin/visualvm.sh
 
 	Windows;
-		2.1) Set VISUALVM_HOME environment variable to base directory of visualvm 
+		2.1) Set VISUALVM_HOME environment variable to base directory of jvisualvm 
 		2.2) execute $JBOSS_HOME/bin/visualvm.bat
 
 
